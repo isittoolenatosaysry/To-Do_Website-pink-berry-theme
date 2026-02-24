@@ -1,0 +1,120 @@
+body {
+    font-family: monospace;
+    background: pink;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    color: white;
+    min-height: 100vh;
+    background: linear-gradient(
+    180deg,
+    #ffc9d4 0%,
+    #ffc0cb 60%,
+    #ffb6c1 100%
+  );
+}
+.app {
+    background: #784658;
+    padding: 20px 15px 10px 15px;
+    border-radius: 15px;
+    width: 350px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18);
+}
+h1 {
+    text-align: center;
+    background-color: pink;
+    padding: 10px 1px 10px 1px;
+    border-radius: 15px;
+    border: 1px solid white;
+    box-shadow: 0 2px 8px rgba(255, 192, 203, 0.669);
+}
+.input-area {
+    display: flex;
+    gap: 10px;
+}
+input {
+    flex: 1;
+    padding: 8px;
+    border-radius: 5px;
+    border: 2px solid pink;
+    color: #784658;
+    font-family: monospace;
+    font-size: small;
+    background-color: white;
+    box-shadow: 0 2px 8px pink;
+}
+button {
+    padding: 5px 20px 5px 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background: #6b8b6c;
+    color: rgb(255, 255, 255);
+    cursor: not-allowed;
+    font-family: monospace;
+    font-size: small;
+}
+button:hover {
+    background: #3bc715;
+    border: 1px solid white;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+li {
+    background: #9f667b;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    cursor: grab;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: monospace;
+    border: 1px solid rgba(255, 255, 255, 0.187);
+    box-shadow: 0 1px 5px #eeeeee44;
+}
+li.completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+.delete-btn {
+    background: rgb(133, 27, 27);
+    border: 1px solid white;
+    color: white;
+    border-radius: 20px;
+    padding: 4px 6px;
+    cursor: pointer;
+}
+.delete-btn:hover {
+    background: rgb(236, 24, 24);
+}
+.dragging {
+    opacity: 0.5;
+}
+li.low {
+    border-left: 5px solid #607e61;
+}
+li.medium {
+    border-left: 5px solid #a78e42;
+}
+li.high {
+    border-left: 5px solid #b45049;
+}
+#prioritySelect {
+    border-radius: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    background: #b28a98;
+    cursor: pointer;
+    font-size: small;
+    color: white;
+    font-family: monospace;
+}
+#prioritySelect:hover {
+  background-color: #e07c9f;
+}
+::select {
+    color: blue;
+    background-color: white;
+}
