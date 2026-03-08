@@ -49,7 +49,7 @@ button {
     border-radius: 5px;
     background: #6b8b6c;
     color: rgb(255, 255, 255);
-    cursor: not-allowed;
+    cursor: pointer;
     font-family: monospace;
     font-size: small;
 }
@@ -117,4 +117,5 @@ li.high {
 ::select {
     color: blue;
     background-color: white;
+
 }
